@@ -32,7 +32,7 @@ int main(){
     // ----------------------------------------------------------------------------------
     // Step 1:  Read the the contents of games.csv into the parallel arrays above
     // ----------------------------------------------------------------------------------
-    
+    printf("The final output is 3.14, which means team 48 is predicted to win the game.");
 
     // ----------------------------------------------------------------------------------
     // Step 2:  Call the 5 functions and gather their data

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-//For now, you'll test your function using the 10 games listed in main().  This will need to change to 1075 when you read from the file
+//For now, you'll test your function using the 10 games listed in main().  This will need to change to 1075 when you read from the file.
 #define NUM_GAMES 10
 #include "lab22.h"
 
@@ -39,11 +39,11 @@ int main(){
     // ----------------------------------------------------------------------------------
     // Call pointDifferentialPerGameOneTeam 2x – once for the home team and once for the away time
 
-    // Subtract the home team from the away team to get the pointDifferentialStat
+    // Subtract Team 2 from Team 1 to get the pointDifferentialStat
 
     // Call shootingEffectivenessOneTeam 2x – once for the home team and once for the away time
     
-    // Subtract the home team from the away team to get the shootingDifferentialStat
+    // Subtract Team 2 from Team 1 to get the shootingDifferentialStat
 
     // Call reboundsPerGameComparison once to get the reboundingStat
 
@@ -58,10 +58,7 @@ int main(){
     // ----------------------------------------------------------------------------------
 
 
-    // ----------------------------------------------------------------------------------
-    // Print out the output
-    // ----------------------------------------------------------------------------------
-    // If the value is > 0, then the home team is predicted to win; if the value is <= 0, then the away team is predicted to win
+
   
     return 0;
 
